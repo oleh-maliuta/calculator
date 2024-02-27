@@ -8,6 +8,7 @@
     <meta name="author" content="Oleh Maliuta">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../assets/icon.ico" />
     <script type="text/javascript" src="script.js" defer></script>
     <title>Calculator</title>
 </head>
@@ -15,84 +16,95 @@
 <body>
     <div id="main">
         <div id="calculator">
-            <div id="output">
-                <div id="previous">
-
+            <div id="panel">
+                <div id="output">
+                    <div id="theme">
+                        <img id="theme-img" alt="app theme" />
+                    </div>
+                    <div id="previous" class="output-part">
+                        <p id="previous-text">134+56=190</p>
+                    </div>
+                    <div id="current" class="output-part">
+                        <p id="current-text">134+56</p>
+                    </div>
+                    <div id="result" class="output-part">
+                        <p id="result-text">190</p>
+                    </div>
                 </div>
-                <div id="current">
-
+                <div id="panel-sep-line">
+                    <div id="panel-sep-line-inside"></div>
                 </div>
-                <div id="result">
-
+                <div id="options">
+                    <button id="left-bracket" class="option operation">
+                        <span class="option-text">&#40;</span>
+                    </button>
+                    <button id="right-bracket" class="option operation">
+                        <span class="option-text">&#41;</span>
+                    </button>
+                    <button id="percent" class="option operation">
+                        <span class="option-text">&#37;</span>
+                    </button>
+                    <button id="sqrt" class="option operation">
+                        <span class="option-text">&#8730;</span>
+                    </button>
+                    <button id="seven" class="option normal">
+                        <span class="option-text">7</span>
+                    </button>
+                    <button id="eight" class="option normal">
+                        <span class="option-text">8</span>
+                    </button>
+                    <button id="nine" class="option normal">
+                        <span class="option-text">9</span>
+                    </button>
+                    <button id="divide" class="option operation">
+                        <span class="option-text">/</span>
+                    </button>
+                    <button id="four" class="option normal">
+                        <span class="option-text">4</span>
+                    </button>
+                    <button id="five" class="option normal">
+                        <span class="option-text">5</span>
+                    </button>
+                    <button id="six" class="option normal">
+                        <span class="option-text">6</span>
+                    </button>
+                    <button id="miltiply" class="option operation">
+                        <span class="option-text">&#215;</span>
+                    </button>
+                    <button id="one" class="option normal">
+                        <span class="option-text">1</span>
+                    </button>
+                    <button id="two" class="option normal">
+                        <span class="option-text">2</span>
+                    </button>
+                    <button id="three" class="option normal">
+                        <span class="option-text">3</span>
+                    </button>
+                    <button id="subtract" class="option operation">
+                        <span class="option-text">-</span>
+                    </button>
+                    <button id="zero" class="option normal">
+                        <span class="option-text">0</span>
+                    </button>
+                    <button id="double-zero" class="option normal">
+                        <span class="option-text">00</span>
+                    </button>
+                    <button id="dot" class="option normal">
+                        <span class="option-text">.</span>
+                    </button>
+                    <button id="add" class="option operation">
+                        <span class="option-text">+</span>
+                    </button>
+                    <button id="clean" class="option cleaner">
+                        <span class="option-text">C</span>
+                    </button>
+                    <button id="delete" class="option cleaner">
+                        <span class="option-text">&lArr;</span>
+                    </button>
+                    <button id="equal" class="option operation">
+                        <span class="option-text">=</span>
+                    </button>
                 </div>
-            </div>
-            <div id="options">
-                <button class="option">
-                    &#40;
-                </button>
-                <button class="option">
-                    &#41;
-                </button>
-                <button class="option">
-                    &#37;
-                </button>
-                <button class="option">
-                    &#8730;
-                </button>
-                <button class="option">
-                    7
-                </button>
-                <button class="option">
-                    8
-                </button>
-                <button class="option">
-                    9
-                </button>
-                <button class="option">
-                    /
-                </button>
-                <button class="option">
-                    4
-                </button>
-                <button class="option">
-                    5
-                </button>
-                <button class="option">
-                    6
-                </button>
-                <button class="option">
-                    &#215;
-                </button>
-                <button class="option">
-                    1
-                </button>
-                <button class="option">
-                    2
-                </button>
-                <button class="option">
-                    3
-                </button>
-                <button class="option">
-                    -
-                </button>
-                <button class="option">
-                    0
-                </button>
-                <button class="option">
-                    00
-                </button>
-                <button class="option">
-                    .
-                </button>
-                <button class="option">
-                    +
-                </button>
-                <button class="option">
-                    del
-                </button>
-                <button class="option">
-                    =
-                </button>
             </div>
         </div>
     </div>
