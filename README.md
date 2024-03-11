@@ -24,6 +24,10 @@ This is a simple web calculator application built using vanilla HTML, CSS, and J
 
 5. Start performing calculations using the provided buttons.
 
+## License
+
+[MIT License](LICENSE)
+
 ## Screenshots
 
 <img src="./docs/light-theme.png" alt="light-theme" width="50%" />
