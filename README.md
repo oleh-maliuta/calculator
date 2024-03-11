@@ -26,5 +26,5 @@ This is a simple web calculator application built using vanilla HTML, CSS, and J
 
 ## Screenshots
 
-<img src="./docs/light-theme.png" alt="light-theme" width="49%" />
-<img src="./docs/dark-theme.png" alt="dark-theme" width="49%" />
+<img src="./docs/light-theme.png" alt="light-theme" width="50%" />
+<img src="./docs/dark-theme.png" alt="dark-theme" width="50%" />
