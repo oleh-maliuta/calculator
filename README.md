@@ -6,7 +6,7 @@ This is a simple web calculator application built using vanilla HTML, CSS, and J
 
 - Arithmetic operations: Addition (+), Subtraction (-), Multiplication (*), Division (/);
 - Additional operations: Exponentiation (^), Percentage (%);
-- Functionality to clear the input (C), clear the input and the history, and remove the last entered character (<=);
+- Functionality to clear the input (C), clear the input and the history (AC), and remove the last entered character (<=);
 - Switch between light and dark themes;
 - Responsive design for seamless usage across different devices.
 
