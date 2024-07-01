@@ -12,9 +12,7 @@ This is a simple web calculator application built using vanilla HTML, CSS, and J
 
 ## Usage
 
-1. Clone the repository to your local machine:
-
-`git clone https://github.com/OlehMaliuta/calculator.git`
+1. Clone the repository to your local machine.
 
 2. Open the project directory.
 
