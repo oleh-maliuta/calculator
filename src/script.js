@@ -24,14 +24,16 @@ if (localStorage.getItem('theme') === 'dark') {
     document.body.classList.add('dark');
 }
 
-function evaluate(value, bracketCount) {
+function evaluate(value, freeOpenBracketCount) {
     let brackets = '';
 
-    for (let i = 0; i < bracketCount; i++) {
+    for (let i = 0; i < freeOpenBracketCount; i++) {
         brackets += ')';
     }
 
-    return Function(`'use strict'; return (${value.replace('^', '**') + brackets})`)().toString()
+    const strRes = new Function(`return ${value.replace('^', '**') + brackets}`)();
+    const fixedRes = Math.round(strRes * 1e8) / 1e8;
+    return fixedRes === Infinity || fixedRes === -Infinity ? 'Error' : fixedRes;
 }
 
 function setPreviousVal(content) {

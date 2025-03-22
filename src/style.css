@@ -160,6 +160,7 @@ body.dark {
     margin-top: 10px;
     text-overflow: ellipsis;
     -webkit-line-clamp: 3;
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     text-align: right;
     overflow-wrap: break-word;
